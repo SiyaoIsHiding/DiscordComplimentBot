@@ -1,5 +1,5 @@
 import "dotenv/config.js";
-
+import express from "express";
 import { Client, Events, GatewayIntentBits } from 'discord.js';
 import { Collection } from 'discord.js';
 import { Command } from './interfaces/command';
@@ -45,3 +45,7 @@ client.on(Events.InteractionCreate, async interaction => {
 		}
 	}
 });
+
+// Otherwise Digital Ocean will complain health check, how stupid they r????
+const app = express();
+app.listen(process.env.PORT || 8080, () => {});

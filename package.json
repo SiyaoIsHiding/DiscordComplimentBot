@@ -7,7 +7,7 @@
   "scripts": {
     "start": "tsc --project tsconfig.json && node --enable-source-maps dist/index.js",
     "register-command": "tsc --project tsconfig.json && node --enable-source-maps dist/register-command.js",
-    "test-gpt" : "tsc --project tsconfig.json && node --enable-source-maps dist/chatgpt-handler.js"
+    "test-gpt": "tsc --project tsconfig.json && node --enable-source-maps dist/chatgpt-handler.js"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,7 @@
   "dependencies": {
     "discord.js": "^14.13.0",
     "dotenv": "^16.3.1",
+    "express": "^4.18.2",
     "openai": "^4.11.0"
   },
   "devDependencies": {
