@@ -1,9 +1,10 @@
-<img src="./pics/ComplimentBot.jpg" align="right"/>
+<img src="./pics/ComplimentBot.jpg" align="right" width="150"/>
 <br>
 
 # Discord Silly Compliment Bot
 Invite the Compliment Bot to your server [here](https://discord.com/api/oauth2/authorize?client_id=1157809035907715182&permissions=274877978624&scope=bot%20applications.commands)!
 
+## User Guide
 Give the name of whom you want to compliment and the context:
 <img src="./pics/Prompt.png">
 
