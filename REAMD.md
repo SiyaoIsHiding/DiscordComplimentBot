@@ -1,0 +1,1 @@
+Invite Compliment Bot to your server: https://discord.com/api/oauth2/authorize?client_id=1157809035907715182&permissions=274877978624&scope=bot%20applications.commands

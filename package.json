@@ -1,0 +1,24 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsc --project tsconfig.json && node --enable-source-maps dist/index.js",
+    "register-command": "tsc --project tsconfig.json && node --enable-source-maps dist/register-command.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "axios": "^1.5.1",
+    "eslint": "^8.50.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
