@@ -5,9 +5,6 @@ import { Collection } from 'discord.js';
 import { Command } from './interfaces/command';
 import ComplimentCommand from './commands/compliment.js';
 
-
-
-
 // Create a new client instance
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 
@@ -18,10 +15,8 @@ client.once(Events.ClientReady, c => {
 });
 
 // Log in to Discord with your client's token
-
 const token = process.env.DISCORD_TOKEN;
 console.log(token);
-// log current directory
 client.login(token);
 
 

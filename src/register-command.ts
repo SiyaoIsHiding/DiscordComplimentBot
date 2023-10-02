@@ -7,7 +7,6 @@ import axios from "axios";
 const APPLICATION_ID = process.env.DISCORD_APPLICATION_ID;
 const GUILD_ID = process.env.DISCORD_SERVER_ID;
 const TOKEN = process.env.DISCORD_TOKEN;
-console.log(APPLICATION_ID);
 
 const url = `https://discord.com/api/v10/applications/${APPLICATION_ID}/guilds/${GUILD_ID}/commands`
 const json = {
@@ -25,7 +24,7 @@ const json = {
             "name": "context",
             "description": "Give some context",
             "type": 3,
-            "required": false
+            "required": true
         }
     ]
 }

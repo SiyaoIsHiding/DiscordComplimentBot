@@ -6,14 +6,16 @@
   "type": "module",
   "scripts": {
     "start": "tsc --project tsconfig.json && node --enable-source-maps dist/index.js",
-    "register-command": "tsc --project tsconfig.json && node --enable-source-maps dist/register-command.js"
+    "register-command": "tsc --project tsconfig.json && node --enable-source-maps dist/register-command.js",
+    "test-gpt" : "tsc --project tsconfig.json && node --enable-source-maps dist/chatgpt-handler.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^14.13.0",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "openai": "^4.11.0"
   },
   "devDependencies": {
     "axios": "^1.5.1",
