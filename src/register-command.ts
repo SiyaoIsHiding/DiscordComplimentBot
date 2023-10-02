@@ -1,14 +1,13 @@
-import { configDotenv } from "dotenv";
-configDotenv();
-
+import "dotenv/config.js";
 import axios from "axios";
-
 
 const APPLICATION_ID = process.env.DISCORD_APPLICATION_ID;
 const GUILD_ID = process.env.DISCORD_SERVER_ID;
 const TOKEN = process.env.DISCORD_TOKEN;
 
-const url = `https://discord.com/api/v10/applications/${APPLICATION_ID}/guilds/${GUILD_ID}/commands`
+// const url = `https://discord.com/api/v10/applications/${APPLICATION_ID}/guilds/${GUILD_ID}/commands`
+const url = `https://discord.com/api/v10/applications/${APPLICATION_ID}/commands`
+
 const json = {
     "name": "compliment",
     "type": 1,

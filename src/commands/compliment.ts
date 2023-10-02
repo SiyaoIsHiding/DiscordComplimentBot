@@ -8,8 +8,12 @@ const ComplimentCommand: Command = {
     async execute(interaction: ChatInputCommandInteraction<CacheType>) {
         try {
             let name = interaction.options.getString('name')!;
-            let string = interaction.options.getString('context')!;
-            chatgpt_conversation(interaction.options.getString('name')!, interaction.options.getString('context')!, (message: string) => {
+            let context = interaction.options.getString('context')!;
+            chatgpt_conversation(name!, context!, (message: string) => {
+                // trim double quotes
+                if (message.startsWith('"') && message.endsWith('"')) {
+                    message = message.slice(1, -1);
+                }
                 interaction.reply(message);
             });
         }catch(e){

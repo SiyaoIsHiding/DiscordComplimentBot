@@ -16,7 +16,6 @@ client.once(Events.ClientReady, c => {
 
 // Log in to Discord with your client's token
 const token = process.env.DISCORD_TOKEN;
-console.log(token);
 client.login(token);
 
 
