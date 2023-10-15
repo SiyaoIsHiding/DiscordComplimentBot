@@ -5,8 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "tsc --project tsconfig.json && node --enable-source-maps dist/index.js",
-    "register-command": "tsc --project tsconfig.json && node --enable-source-maps dist/register-command.js",
+    "start": "ts-node-esm src/index.ts",
+    "dev": "nodemon --watch './**/*.ts' --exec 'node --experimental-specifier-resolution=node --loader ts-node/esm' src/index.ts",
+    "register-command": "ts-node-esm src/register-command.ts",
     "test-gpt": "tsc --project tsconfig.json && node --enable-source-maps dist/chatgpt-handler.js"
   },
   "keywords": [],
