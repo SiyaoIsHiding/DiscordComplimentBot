@@ -7,6 +7,8 @@ Invite <a target="_blank" href="https://discord.com/api/oauth2/authorize?client_
 
 Optionally, invite <a target="_blank" href="https://discord.com/api/oauth2/authorize?client_id=1158862086013730908&permissions=2048&scope=bot">Sweet Jane</a>, <a target="_blank" href="https://discord.com/api/oauth2/authorize?client_id=1162965677502631966&permissions=2048&scope=bot">Sweet Mike</a>, <a target="_blank" href="https://discord.com/api/oauth2/authorize?client_id=1162976286373851186&permissions=2048&scope=bot">Sweet Jade</a>! Everyone in the crew is so good at complimenting!
 
+(CTRL+click on Wins or CMD+click on Mac to open the link in a new tab)
+
 <table>
   <tr>
     <td><img src="./pics/Tom.jpg" width="150"/></td>
