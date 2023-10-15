@@ -3,7 +3,7 @@
 
 # Discord Silly Compliment Crew
 Invite the Compliment Crew to your server!
-Invite [Sweet Tom](https://discord.com/api/oauth2/authorize?client_id=1157809035907715182&permissions=274877978624&scope=bot%20applications.commands)! He is the group leader!
+Invite [Sweet Tom](https://discord.com/api/oauth2/authorize?client_id=1157809035907715182&permissions=274877978624&scope=bot%20applications.commands) first! He is the group leader!
 
 Optionally, invite [Sweet Jane](https://discord.com/api/oauth2/authorize?client_id=1158862086013730908&permissions=2048&scope=bot), [Sweet Mike](https://discord.com/api/oauth2/authorize?client_id=1162965677502631966&permissions=2048&scope=bot), [Sweet Jade](https://discord.com/api/oauth2/authorize?client_id=1162976286373851186&permissions=2048&scope=bot)! Everyone in the crew is so good at complimenting!
 
@@ -34,3 +34,7 @@ If you think 4 crew members complimenting is too much, you can invite Tom only. 
 
 <img src="./pics/Prompt2.png">
 <img src="./pics/Response2.png">
+
+You can specify the language you want to use in the context. Here's an example for Chinese:
+<img src="./pics/Prompt3.png">
+<img src="./pics/Response3.png">
