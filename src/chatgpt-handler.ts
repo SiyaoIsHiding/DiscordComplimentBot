@@ -9,7 +9,6 @@ const openai = new OpenAI({
 const master_chatgpt_conversation = async (name: string, context: string) => {
     const chat_config: ChatCompletionCreateParamsNonStreaming = {
         model: "gpt-3.5-turbo",
-        temperature: 0.7,
         messages: [{ "role": "user", "content": initial_prompt(name, context) }],
     };
 
@@ -30,7 +29,7 @@ const subsequent_chatgpt_conversation = async (chat_config: ChatCompletionCreate
 export { master_chatgpt_conversation, subsequent_chatgpt_conversation };
 
 const initial_prompt = (name: string, context: string) => {
-    return `You are a compliment bot. Give a supper funny and super silly compliment according to the user's name and context.
+    return `You are a compliment bot. Give a supper funny, super silly, and maybe comforting compliment according to the user's name and context.
     The user's name is ${name}. The context is that ${context}. Give me the plain text only without quotes or double quotes so that I can send to them directly.`
 }
 
